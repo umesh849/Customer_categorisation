@@ -159,13 +159,14 @@ Features:
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/customer-segmentation.git
+git clone
+https://github.com/umesh849/Customer_categorisation.git
 ```
 
 Go inside the project
 
 ```bash
-cd customer-segmentation
+cd Customer_categorisation 
 ```
 
 Install dependencies
