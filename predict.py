@@ -2,7 +2,14 @@ import joblib
 import pandas as pd
 
 # Load saved objects
-model = joblib.load(r"D:\customer_categoriser\models\xgb_classifier.pkl")
+import os
+import joblib
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model_path = os.path.join(BASE_DIR, "models", "xgb_classifier.pkl")
+
+model = joblib.load(model_path)
 
 
 def predict_cluster(customer_data):
